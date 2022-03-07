@@ -2,7 +2,8 @@ html{
     font-size: 62.5%;
 }
 
-.login_form_container{
+.login_form_container,
+.Registration_form_container{
     height: 100%;
     width: 100%;
     background: #fff;
@@ -10,11 +11,6 @@ html{
     align-items: center;
     justify-content: center;
     padding: 7rem 0;
-}
-
-.login_form_container.active{
-    top: 0;
-    opacity: 1;
 }
 
 .login_form_container form,
